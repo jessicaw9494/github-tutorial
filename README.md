@@ -15,15 +15,22 @@ down every change made and who contributed to that change.
 _**Initial Setup**_ is used to put a title on any work changed by a person. It is a very convenient
 way of saving your project without continual logging in.  
 
-* First, set up your Github account:
+* Set up your Github account:
     1. To begin your Git&Github journey, you would need to create a Github account at [github.com](github.com). 
     This is where you can view and share your codes as a repository (folder).  
     2. Next, make an account on [c9.io](c9.io) and sign in with your Github account. This website is useful 
     for writing and saving all of your code while performing Git and Github. 
-* Second, know your _**SSH Keys**_:
+* Know your _**SSH Keys**_:
     * SSH (Secure SHell) is a URL or the location of your remote repo. Although _**HTTPS**_ is also a functional URL, HTTPS requires
      you to repeatedly log in every time. However, SSH is more convenient because it only requires 
-     you to log in once.
+     you to log in once.  
+    * To locate your SSH URL, it can be found in your Github account. This URL is used to clone to your 
+    code into c9.
+* What is _**git config**_?:
+    * 'git config' is a command to save your user.name and user.email. Thus, the site can remember you were the 
+     one who committed the changes. 
+    * The code to do so is _$ git config --global user.name "John Doe"_ and then 
+     _$ git config --global user.email johndoe@example.com"_ 
 
 
 ---
