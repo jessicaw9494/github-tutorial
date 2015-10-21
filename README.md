@@ -27,15 +27,32 @@ way of saving your project without continual logging in.
     * To locate your SSH URL, it can be found in your Github account. This URL is used to clone to your 
     code into c9.
 * What is _**git config**_?:
-    * 'git config' is a command to save your user.name and user.email. Thus, the site can remember you were the 
+    * `git config` is a command to save your user.name and user.email. Thus, the site can remember you were the 
      one who committed the changes. 
     * The code to do so is `_$ git config --global user.name "your-name"`_ and then 
      `_$ git config --global user.email your-email@site.com"_` 
 
 ---
 ## Repository Setup
-_**Repository Setup**_ is 
+A _**Repository Setup**_ is a file that contains your code in Github. You can make as many repos as you want
+in a workspace. 
 
+* What is _**git init**_?
+    * `git init` is a command to create a new Git repository. It is only mandatory to use this command once.
+* How do you _**add**_ and _**commit**_?
+    * Add and commit is and important step to do before you push your code to your repository to view on 
+    * Github. But you must remember to `cd` into your folder first. 
+   1. To add a remote repo, you do `git add "repo-name"`
+   2. Next, to commit, you want to do `git commit -m ""message""`
+* How to make a new repo on Github?
+   1. To make a new repo on Github, all you have to do is press the '+' button right next to your profile icon 
+   on Github. 
+   2. From there, press 'New Repository', put in your repo name, and press "Create new repository".
+* What is a _**remote**_?
+    * A remote is a setup to connect your current repository to an external one that lives in Github.
 
 ---
 ## Workflow & Commands
+* What are the common workflows and commands you will need to know when using Git&Github?
+
+---
