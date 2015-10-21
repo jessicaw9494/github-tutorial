@@ -4,9 +4,10 @@ _by Jessica Wu_
 
 ---
 ## Git vs. GitHub
-* _**Git**_ is used for version control which takes a snapshot of someones code. 
+ _**Git**_ is used for version control which takes a snapshot of someones code. 
 This is helpful for someone who makes mistakes in the future. 
 Futhermore, Git does not require Github. 
+
 In contrast, _**Github**_ does require Git. Github is more specific than Git because it takes 
 down every change made and who contributed to that change. 
 
@@ -54,5 +55,34 @@ in a workspace.
 ---
 ## Workflow & Commands
 * What are the common workflows and commands you will need to know when using Git&Github?
+    * `git status`: This command is to make sure everything you are typing has not errors and will inform you 
+    when you do this command.
+    * `git add `: This command will let you add a remote repository.
+    * `git commit -m ""`: This command will allow you to write a message as a reminder of what change you had made.
+    * `git push`: This command will push your changes to Github in order to be viewed by the public and/or shared
+    to the public.
 
 ---
+## Collaboration
+Have you ever wanted to collaborate on a project with someone, fix an error that they made, or simply improve their 
+code? Well you can with Git&Github!
+
+* _**Fork and Clone!**_: Forking and Cloning is an easy way to bring someone else's repository to you and then you 
+can make the changes.
+    * To Fork, all you need to do is press the Fork button on the other person's repository page and you know when
+    it's complete when you see `forked from username/repositoryname` under your username.
+    * To Clone, go to your c9 account and type in 'git clone' with the SSH URL that can found in the right hand side
+    of your repository page on Github. 
+* Just because you have saved and copied one's project does not mean your done! You must share and be accepted by the
+other user! That's why we have _**Pull Requests**_.
+    * To make your pull request, you must press the green quared button on your Github repo page and then press 
+    _'Create pull request'_.
+    * From there, the other person can view your edits/changes before they accept your changes.
+
+---
+## Error Handling
+
+When you come across an error, no fret! 
+
+* If you ever `init` in the wrong directory, you can `cd` your way out and then remove your repository by using the
+command `rm -rf dir-name`.
