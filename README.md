@@ -29,13 +29,12 @@ way of saving your project without continual logging in.
 * What is _**git config**_?:
     * 'git config' is a command to save your user.name and user.email. Thus, the site can remember you were the 
      one who committed the changes. 
-    * The code to do so is _$ git config --global user.name "John Doe"_ and then 
-     _$ git config --global user.email johndoe@example.com"_ 
-
+    * The code to do so is `_$ git config --global user.name "your-name"`_ and then 
+     `_$ git config --global user.email your-email@site.com"_` 
 
 ---
 ## Repository Setup
-
+_**Repository Setup**_ is 
 
 
 ---
