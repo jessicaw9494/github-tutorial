@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>GitHub-tutorial by jessicaw9494</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>GitHub-tutorial</h1>
+        <h2>Let&#39;s Git Ready for Github</h2>
+        <a href="https://github.com/jessicaw9494/github-tutorial" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Jessica Wu</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><em><strong>Git</strong></em> is used for version control which takes a snapshot of someones code. 
+This is helpful for someone who makes mistakes in the future. 
+Futhermore, Git does not require Github. </p>
+
+<p>In contrast, <em><strong>Github</strong></em> does require Git. Github is more specific than Git because it takes 
+down every change made and who contributed to that change. </p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><em><strong>Initial Setup</strong></em> is used to put a title on any work changed by a person. It is a very convenient
+way of saving your project without continual log in.  </p>
+
+<ul>
+<li>Set up your Github account:
+
+<ol>
+<li>To begin your Git&amp;Github journey, you would need to create a Github account at <a href="github.com">github.com</a>. 
+This is where you can view and share your codes as a repository (folder).<br>
+</li>
+<li>Next, make an account on <a href="c9.io">c9.io</a> and sign in with your Github account. This website is useful 
+for writing and saving all of your code while performing Git and Github. </li>
+</ol>
+</li>
+<li>Know your <em><strong>SSH Keys</strong></em>:
+
+<ul>
+<li>SSH (Secure SHell) is a URL or the location of your remote repo. Although <em><strong>HTTPS</strong></em> is also a functional URL, HTTPS requires
+you to repeatedly log in. However, SSH is more convenient because it only requires 
+you to log in once.<br>
+</li>
+<li>To locate your SSH URL, it can be found in your Github account. This URL is used to clone into c9.</li>
+</ul>
+</li>
+<li>What is <em><strong>git config</strong></em>?:
+
+<ul>
+<li>
+<code>git config</code> is a command to save your user.name and user.email. Thus, the site can remember you were the 
+one who committed the changes. </li>
+<li>The code to do so is <code>$ git config --global user.name "your-name"</code> and then 
+<code>$ git config --global user.email your-email@site.com"</code> </li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>A <em><strong>Repository Setup</strong></em> is a file that contains your code in Github. You can make as many repos as you want
+in a workspace. </p>
+
+<ul>
+<li>What is <em><strong>git init</strong></em>?
+
+<ul>
+<li>
+<code>git init</code> is a command to create a new Git repository. It is only mandatory to use this command once.</li>
+</ul>
+</li>
+<li>How do you <em><strong>add</strong></em> and <em><strong>commit</strong></em>?
+
+<ul>
+<li>Add and commit is and important step to do before you push your code to your repository to view on 
+Github. But you must remember to <code>cd</code> into your folder first. </li>
+<li>To add a remote repo, you do <code>git add repo-name</code>
+</li>
+<li>Next, to commit, you want to do <code>git commit -m "message"</code>
+</li>
+</ul>
+</li>
+<li>How to make a new repo on Github?
+
+<ol>
+<li>To make a new repo on Github, all you have to do is press the '+' button right next to your profile icon 
+on Github. </li>
+<li>From there, press 'New Repository', put in your repo name, and press "Create new repository".</li>
+</ol>
+</li>
+<li>What is a <em><strong>remote</strong></em>?
+
+<ul>
+<li>A remote is a setup to connect your current repository to an external one that lives in Github.</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<ul>
+<li>What are the common workflows and commands you will need to know when using Git&amp;Github?
+
+<ul>
+<li>
+<code>git status</code>: This command is to make sure everything you are typing has no errors and will inform you 
+when you do. It is recommended to use this command often.</li>
+<li>
+<code>git add</code>: This command will let you add a remote repository.</li>
+<li>
+<code>git commit -m ""</code>: This command will allow you to write a message as a reminder of what change you had made.</li>
+<li>
+<code>git push</code>: This command will push your changes to Github in order to be viewed by the public and/or shared
+to the public.</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<p>Have you ever wanted to collaborate on a project with someone, fix an error that they made, or simply improve their 
+code? Well you can with Git&amp;Github!</p>
+
+<ul>
+<li>
+<em><strong>Fork and Clone!</strong></em>: Forking and Cloning is an easy way to bring someone else's repository to you and then you 
+can make the changes.
+
+<ul>
+<li>To Fork, all you need to do is press the <em>'Fork'</em> button on the other person's repository page and you know when
+it's complete when you see <code>forked from username/repositoryname</code> under your username.</li>
+<li>To Clone, go to your c9 account and type in 'git clone' with the SSH URL that can found in the right hand side
+of your repository page on Github. </li>
+</ul>
+</li>
+<li>Just because you have saved and copied one's project does not mean your done! You must share and be accepted by the
+other user! That's why we have <em><strong>Pull Requests</strong></em>.
+
+<ul>
+<li>To make your pull request, you must press the green squared button on your Github repo page and then press 
+<em>'Create pull request'</em>.</li>
+<li>From there, the other person can view your edits/changes before they accept your changes.</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="error-handling" class="anchor" href="#error-handling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Error Handling</h2>
+
+<p>When you come across an error, no fret! </p>
+
+<ul>
+<li>If you ever <code>init</code> in the wrong directory, you can <code>cd</code> your way out and then remove your repository by using the
+command <code>rm -rf dir-name</code>.</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/jessicaw9494/github-tutorial/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/jessicaw9494/github-tutorial/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/jessicaw9494/github-tutorial"></a> is maintained by <a href="https://github.com/jessicaw9494">jessicaw9494</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
